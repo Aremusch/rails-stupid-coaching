@@ -1,0 +1,11 @@
+
+<h1 class="mx-5">Stupid Coaching</h1>
+
+  <div class="mb-3 mx-5">
+    <form class="form-label" action="/answer"  data-turbo="false" method="get" >Ask your coach anything
+      <div class="mb-3 d-flex">
+        <input name="questions" class="form-control w-75" type="text" value="<%= params[:questions] %>">
+        <input class="btn btn-primary w-25" value="Ask!" type="submit"></input>
+      </div>
+    </form>
+  </div>
